@@ -17,10 +17,12 @@
           required
           maxlength="15"
         />
-        <button>Log in</button>
+        <button id="login-button">Log in</button>
       </form>
-      <h1 class="hidden" id="greeting"></h1>
-      <button id="logout-button" class="hidden">Log out</button>
+      <div id="log-box">
+        <h1 class="hidden" id="greeting"></h1>
+        <button id="logout-button" class="hidden">Log out</button>
+      </div>
       <h2 id="clock">0:00:00</h2>
       <div id="quote">
         <span></span>
@@ -36,10 +38,15 @@
       </form>
       <ul id="todo-list"></ul>
     </div>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
     <script src="./js/greetings.js"></script>
     <script src="./js/clocks.js"></script>
     <script src="./js/quotes.js"></script>
     <script src="./js/background.js"></script>
     <script src="./js/todo.js"></script>
+    <script src="./js/weather.js"></script>
   </body>
 </html>

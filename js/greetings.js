@@ -17,7 +17,7 @@ const USERNAME_KEY = "username";
 //h1 hidden class 제거
 
 function paintGreeting(username) {
-  greeting.innerText = `Hello ${username}`;
+  greeting.innerText = `Hello  ${username}`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
   logoutBtn.classList.remove(HIDDEN_CLASSNAME);
 }
